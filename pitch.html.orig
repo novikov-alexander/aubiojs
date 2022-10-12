@@ -39,8 +39,15 @@
       crossorigin="anonymous"
       controls
     ></audio>
+<<<<<<< HEAD
+    <script src="../build/aubio.js"></script>
+    <script type='module'>
+      import aubio  from '../build/aubio.js'; 
+
+=======
     <script type="module">
-      import aubio from "./aubio.esm.js";
+      import aubio from "../build/aubio.esm.js";
+>>>>>>> 4c926f0104a4c3c60a657496c8b6e473b12f1305
       let audioSource, audioContext, scriptProcessor;
       let count = 0;
       const audio = document.querySelector("audio");
